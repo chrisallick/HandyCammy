@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>8B95B235-B80F-49A7-A562-60692E581576</string>
+	<key>IDESourceControlProjectName</key>
+	<string>handy cammy</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>6C696181B955584977D8DB555D9019073F89D30D</key>
+		<string>github.com:chrisallick/HandyCammy.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>handy cammy.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>6C696181B955584977D8DB555D9019073F89D30D</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:chrisallick/HandyCammy.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>6C696181B955584977D8DB555D9019073F89D30D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>6C696181B955584977D8DB555D9019073F89D30D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>handy%20cam</string>
+		</dict>
+	</array>
+</dict>
+</plist>

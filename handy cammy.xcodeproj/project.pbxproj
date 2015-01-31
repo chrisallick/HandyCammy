@@ -13,25 +13,14 @@
 		236639B01A7C7100004527B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 236639AE1A7C7100004527B2 /* Main.storyboard */; };
 		236639B21A7C7100004527B2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 236639B11A7C7100004527B2 /* Images.xcassets */; };
 		236639B51A7C7100004527B2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 236639B31A7C7100004527B2 /* LaunchScreen.xib */; };
-		236639C11A7C7100004527B2 /* handy_camTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 236639C01A7C7100004527B2 /* handy_camTests.m */; };
 		236639CC1A7C71B3004527B2 /* CameraView.m in Sources */ = {isa = PBXBuildFile; fileRef = 236639CB1A7C71B3004527B2 /* CameraView.m */; };
 		236639E71A7C72AA004527B2 /* toggleFlashButtonDown.png in Resources */ = {isa = PBXBuildFile; fileRef = 236639D81A7C72AA004527B2 /* toggleFlashButtonDown.png */; };
 		236639ED1A7C7D15004527B2 /* toggleFlashButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 236639EC1A7C7D15004527B2 /* toggleFlashButton.png */; };
 		236639F01A7C9958004527B2 /* NSTimer+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 236639EF1A7C9958004527B2 /* NSTimer+Blocks.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		236639BB1A7C7100004527B2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 236639991A7C7100004527B2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 236639A01A7C7100004527B2;
-			remoteInfo = "handy cam";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		236639A11A7C7100004527B2 /* handy cam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "handy cam.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		236639A11A7C7100004527B2 /* handy cammy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "handy cammy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		236639A51A7C7100004527B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		236639A61A7C7100004527B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		236639A81A7C7100004527B2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -41,7 +30,6 @@
 		236639AF1A7C7100004527B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		236639B11A7C7100004527B2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		236639B41A7C7100004527B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		236639BA1A7C7100004527B2 /* handy camTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "handy camTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		236639BF1A7C7100004527B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		236639C01A7C7100004527B2 /* handy_camTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = handy_camTests.m; sourceTree = "<group>"; };
 		236639CA1A7C71B3004527B2 /* CameraView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraView.h; sourceTree = "<group>"; };
@@ -54,13 +42,6 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		2366399E1A7C7100004527B2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		236639B71A7C7100004527B2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -82,8 +63,7 @@
 		236639A21A7C7100004527B2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				236639A11A7C7100004527B2 /* handy cam.app */,
-				236639BA1A7C7100004527B2 /* handy camTests.xctest */,
+				236639A11A7C7100004527B2 /* handy cammy.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -146,9 +126,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		236639A01A7C7100004527B2 /* handy cam */ = {
+		236639A01A7C7100004527B2 /* handy cammy */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 236639C41A7C7100004527B2 /* Build configuration list for PBXNativeTarget "handy cam" */;
+			buildConfigurationList = 236639C41A7C7100004527B2 /* Build configuration list for PBXNativeTarget "handy cammy" */;
 			buildPhases = (
 				2366399D1A7C7100004527B2 /* Sources */,
 				2366399E1A7C7100004527B2 /* Frameworks */,
@@ -158,28 +138,10 @@
 			);
 			dependencies = (
 			);
-			name = "handy cam";
+			name = "handy cammy";
 			productName = "handy cam";
-			productReference = 236639A11A7C7100004527B2 /* handy cam.app */;
+			productReference = 236639A11A7C7100004527B2 /* handy cammy.app */;
 			productType = "com.apple.product-type.application";
-		};
-		236639B91A7C7100004527B2 /* handy camTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 236639C71A7C7100004527B2 /* Build configuration list for PBXNativeTarget "handy camTests" */;
-			buildPhases = (
-				236639B61A7C7100004527B2 /* Sources */,
-				236639B71A7C7100004527B2 /* Frameworks */,
-				236639B81A7C7100004527B2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				236639BC1A7C7100004527B2 /* PBXTargetDependency */,
-			);
-			name = "handy camTests";
-			productName = "handy camTests";
-			productReference = 236639BA1A7C7100004527B2 /* handy camTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -193,13 +155,9 @@
 					236639A01A7C7100004527B2 = {
 						CreatedOnToolsVersion = 6.1.1;
 					};
-					236639B91A7C7100004527B2 = {
-						CreatedOnToolsVersion = 6.1.1;
-						TestTargetID = 236639A01A7C7100004527B2;
-					};
 				};
 			};
-			buildConfigurationList = 2366399C1A7C7100004527B2 /* Build configuration list for PBXProject "handy cam" */;
+			buildConfigurationList = 2366399C1A7C7100004527B2 /* Build configuration list for PBXProject "handy cammy" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -212,8 +170,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				236639A01A7C7100004527B2 /* handy cam */,
-				236639B91A7C7100004527B2 /* handy camTests */,
+				236639A01A7C7100004527B2 /* handy cammy */,
 			);
 		};
 /* End PBXProject section */
@@ -228,13 +185,6 @@
 				236639B51A7C7100004527B2 /* LaunchScreen.xib in Resources */,
 				236639B21A7C7100004527B2 /* Images.xcassets in Resources */,
 				236639ED1A7C7D15004527B2 /* toggleFlashButton.png in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		236639B81A7C7100004527B2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,23 +203,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		236639B61A7C7100004527B2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				236639C11A7C7100004527B2 /* handy_camTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		236639BC1A7C7100004527B2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 236639A01A7C7100004527B2 /* handy cam */;
-			targetProxy = 236639BB1A7C7100004527B2 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		236639AE1A7C7100004527B2 /* Main.storyboard */ = {
@@ -371,9 +305,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = "handy cam/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "handy cammy";
 			};
 			name = Debug;
 		};
@@ -381,50 +316,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = "handy cam/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		236639C81A7C7100004527B2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "handy camTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/handy cam.app/handy cam";
-			};
-			name = Debug;
-		};
-		236639C91A7C7100004527B2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "handy camTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/handy cam.app/handy cam";
+				PRODUCT_NAME = "handy cammy";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2366399C1A7C7100004527B2 /* Build configuration list for PBXProject "handy cam" */ = {
+		2366399C1A7C7100004527B2 /* Build configuration list for PBXProject "handy cammy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				236639C21A7C7100004527B2 /* Debug */,
@@ -433,21 +335,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		236639C41A7C7100004527B2 /* Build configuration list for PBXNativeTarget "handy cam" */ = {
+		236639C41A7C7100004527B2 /* Build configuration list for PBXNativeTarget "handy cammy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				236639C51A7C7100004527B2 /* Debug */,
 				236639C61A7C7100004527B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		236639C71A7C7100004527B2 /* Build configuration list for PBXNativeTarget "handy camTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				236639C81A7C7100004527B2 /* Debug */,
-				236639C91A7C7100004527B2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -65,27 +65,14 @@
     [self.layer addSublayer: captureVideoPreviewLayer];
     [captureSession startRunning];
     
-    UIImage *toggleFlashImage = [UIImage imageNamed:@"toggleFlashButton.png"];
-    toggleFlashButton = [UIButton buttonWithType:UIButtonTypeCustom];
-    [toggleFlashButton setFrame:CGRectMake(self.frame.size.width - 20 - toggleFlashImage.size.width/2.0, self.frame.size.height - 60.0 - toggleFlashImage.size.height/2.0, toggleFlashImage.size.width/2.0, toggleFlashImage.size.height/2.0)];
-    [toggleFlashButton setBackgroundImage:toggleFlashImage forState:UIControlStateNormal];
-    [toggleFlashButton setAdjustsImageWhenHighlighted:NO];
-    [toggleFlashButton setUserInteractionEnabled:YES];
-    [toggleFlashButton setTag:1];
-    [toggleFlashButton addTarget:self action:@selector(onTouchUp:) forControlEvents:UIControlEventTouchUpOutside];
-    [toggleFlashButton addTarget:self action:@selector(onTouchDown:) forControlEvents:UIControlEventTouchDown];
-    [toggleFlashButton addTarget:self action:@selector(onTap:) forControlEvents:UIControlEventTouchUpInside];
-    [toggleFlashButton addTarget:self action:@selector(onTouchUp:) forControlEvents:UIControlEventTouchDragExit];
-    [self addSubview:toggleFlashButton];
-    
     message = [[UITextField alloc] initWithFrame:CGRectMake(0.0, self.frame.size.height - 40.0, self.frame.size.width-80.0, 40.0)];
     [message setKeyboardAppearance:UIKeyboardAppearanceAlert];
     [message setPlaceholder:@"enter message..."];
     [message setBackgroundColor:[UIColor colorWithRed:1.0 green:1.0 blue:1.0 alpha:.3]];
     [self addSubview:message];
     
-    chat = [[UIScrollView alloc] initWithFrame:CGRectMake(0.0, 40.0, self.frame.size.width, 371.0)];
-    [chat setBackgroundColor:[UIColor colorWithRed:1.0 green:1.0 blue:1.0 alpha:.1]];
+    chat = [[UIScrollView alloc] initWithFrame:CGRectMake(10.0, 50.0, self.frame.size.width-20.0, 361.0)];
+    [chat setBackgroundColor:[UIColor colorWithRed:1.0 green:1.0 blue:1.0 alpha:0.0]];
     [self addSubview:chat];
     
     send = [[UIButton alloc] initWithFrame:CGRectMake(self.frame.size.width-80.0, self.frame.size.height-40.0, 80.0, 40.0)];
@@ -96,12 +83,26 @@
     [send setTag:2];
     [self addSubview:send];
     
-    title = [[UILabel alloc] initWithFrame:CGRectMake(0.0, 0.0, self.frame.size.width, 40.0)];
+    title = [[UILabel alloc] initWithFrame:CGRectMake(0.0, 10.0, self.frame.size.width, 40.0)];
     [title setTextAlignment:NSTextAlignmentCenter];
     [title setBackgroundColor:[UIColor clearColor]];
     [title setTextColor:[UIColor whiteColor]];
     [title setText:@"Chat with Paul"];
     [self addSubview:title];
+    
+    UIImage *toggleFlashImage = [UIImage imageNamed:@"toggleFlashButton.png"];
+    toggleFlashButton = [UIButton buttonWithType:UIButtonTypeCustom];
+    [toggleFlashButton setFrame:CGRectMake(self.frame.size.width - 20 - toggleFlashImage.size.width/2.0, self.frame.size.height - 60.0 - toggleFlashImage.size.height/2.0, toggleFlashImage.size.width/2.0, toggleFlashImage.size.height/2.0)];
+    [toggleFlashButton setBackgroundImage:toggleFlashImage forState:UIControlStateNormal];
+    [toggleFlashButton setAdjustsImageWhenHighlighted:NO];
+    [toggleFlashButton setUserInteractionEnabled:YES];
+    [toggleFlashButton setTag:1];
+    [toggleFlashButton setHidden:YES];
+    [toggleFlashButton addTarget:self action:@selector(onTouchUp:) forControlEvents:UIControlEventTouchUpOutside];
+    [toggleFlashButton addTarget:self action:@selector(onTouchDown:) forControlEvents:UIControlEventTouchDown];
+    [toggleFlashButton addTarget:self action:@selector(onTap:) forControlEvents:UIControlEventTouchUpInside];
+    [toggleFlashButton addTarget:self action:@selector(onTouchUp:) forControlEvents:UIControlEventTouchDragExit];
+    [self addSubview:toggleFlashButton];
     
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(myNotificationMethod:) name:UIKeyboardWillShowNotification object:nil];
     [message becomeFirstResponder];
@@ -116,6 +117,7 @@
     [UIView setAnimationDuration:.290];
     [message setFrame:CGRectMake(0.0, self.frame.size.height-keyboardFrameBeginRect.size.height-40.0, self.frame.size.width, 40.0)];
     [send setFrame:CGRectMake(self.frame.size.width-80.0, self.frame.size.height-keyboardFrameBeginRect.size.height-40.0, 80.0, 40.0)];
+    [toggleFlashButton setFrame:CGRectMake(toggleFlashButton.frame.origin.x, self.frame.size.height-keyboardFrameBeginRect.size.height-80., toggleFlashButton.frame.size.width, toggleFlashButton.frame.size.height)];
     [UIView commitAnimations];
 }
 

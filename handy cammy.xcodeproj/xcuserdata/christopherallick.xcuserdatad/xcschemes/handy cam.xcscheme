@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "236639A01A7C7100004527B2"
-               BuildableName = "handy cam.app"
-               BlueprintName = "handy cam"
-               ReferencedContainer = "container:handy cam.xcodeproj">
+               BuildableName = "handy cammy.app"
+               BlueprintName = "handy cammy"
+               ReferencedContainer = "container:handy cammy.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -31,7 +31,7 @@
                BlueprintIdentifier = "236639B91A7C7100004527B2"
                BuildableName = "handy camTests.xctest"
                BlueprintName = "handy camTests"
-               ReferencedContainer = "container:handy cam.xcodeproj">
+               ReferencedContainer = "container:handy cammy.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -49,7 +49,7 @@
                BlueprintIdentifier = "236639B91A7C7100004527B2"
                BuildableName = "handy camTests.xctest"
                BlueprintName = "handy camTests"
-               ReferencedContainer = "container:handy cam.xcodeproj">
+               ReferencedContainer = "container:handy cammy.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -57,9 +57,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "236639A01A7C7100004527B2"
-            BuildableName = "handy cam.app"
-            BlueprintName = "handy cam"
-            ReferencedContainer = "container:handy cam.xcodeproj">
+            BuildableName = "handy cammy.app"
+            BlueprintName = "handy cammy"
+            ReferencedContainer = "container:handy cammy.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "236639A01A7C7100004527B2"
-            BuildableName = "handy cam.app"
-            BlueprintName = "handy cam"
-            ReferencedContainer = "container:handy cam.xcodeproj">
+            BuildableName = "handy cammy.app"
+            BlueprintName = "handy cammy"
+            ReferencedContainer = "container:handy cammy.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,9 +94,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "236639A01A7C7100004527B2"
-            BuildableName = "handy cam.app"
-            BlueprintName = "handy cam"
-            ReferencedContainer = "container:handy cam.xcodeproj">
+            BuildableName = "handy cammy.app"
+            BlueprintName = "handy cammy"
+            ReferencedContainer = "container:handy cammy.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
